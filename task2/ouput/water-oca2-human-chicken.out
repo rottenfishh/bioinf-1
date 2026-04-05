@@ -1,0 +1,255 @@
+########################################
+# Program: water
+# Rundate: Sun  5 Apr 2026 12:48:40
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20260405-124835-0905-35686283-p1m.asequence
+#    -bsequence emboss_water-I20260405-124835-0905-35686283-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 114-2630
+# 2: 493-3072
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 2688
+# Identity:    1801/2688 (67.0%)
+# Similarity:  1801/2688 (67.0%)
+# Gaps:         290/2688 (10.8%)
+# Score: 5883.0
+# 
+#
+#=======================================
+
+114-2630           8 TGGAG-----------GGCAGAGACG--------------GCAGGCG-GT     31
+                     |||||           ||||.|||.|              |.|.|.| ||
+493-3072           2 TGGAGAACTGCCCCCAGGCACAGATGTACTTAGATAACAAGGATGAGAGT     51
+
+114-2630          32 ACCCCGGCGCGCCGGCGG---------------TGGAGCTCCTGCAGAC-     65
+                     |              |||               |||||||....||||| 
+493-3072          52 A--------------CGGTTTCTAGACAAGAAATGGAGCTGAATCAGACT     87
+
+114-2630          66 --------------------GTCCGTGC-CCAGCGG-------ACTC---     84
+                                         |||  ||| .|||.||       ||.|   
+493-3072          88 CCTTCACATAAAACCAGTTTGTC--TGCAACAGTGGCAACCAAACCCGGG    135
+
+114-2630          85 -------GCTGAACT----TGTGGC----------------CGGCA----    103
+                            ||||.|.|    ||||||                .||||    
+493-3072         136 TCTAGAAGCTGCAATGAGCTGTGGCTCTTAAAAGAGTATCATGGCATGGT    185
+
+114-2630         104 AGCGCAGGCTTCCTCGGGGAGCCGGTGGAGCTGACCCCTCGCACTCCT--    151
+                     |.|| ||.|||    ||.|||||     |..| ||||        |||  
+493-3072         186 AACG-AGTCTT----GGAGAGCC-----AAAT-ACCC--------CCTGT    216
+
+114-2630         152 ------GCCCC--------AGGGGGGCTGCCGGGCAGAGCTCTTGGGCTC    187
+                           ||..|        |||..||||     |||..|||||       
+493-3072         217 GAAAAAGCAGCAGTAGAAGAGGATGGCT-----GCATTGCTCT-------    254
+
+114-2630         188 CTGCAGGCCAGGAGTTTGCTTCA--TTCCTCACAAAAGGGAGGTCTCACT    235
+                         .|||.|||| |||...|||  |||| ||...|.||.||.|..||  
+493-3072         255 ----GGGCAAGGA-TTTCACTCAAGTTCC-CATGCAGGGAAGATACCA--    296
+
+114-2630         236 CTTC--TTTGCCCCAGATGTCCAGCTCCAGGTCTAAAGATTCC---TGCT    280
+                     ||||  |||..||.|..|.|.||||||.|||||  |||| .||   ||||
+493-3072         297 CTTCAGTTTTTCCAAATTATTCAGCTCAAGGTC--AAGA-ACCACTTGCT    343
+
+114-2630         281 TTACAGAAAACACTCCTTTGCTGAGGAATTCCTTACAGGAGAAAGGGTCA    330
+                     |||||||.||.||.||..||||||.|..|||||.|.||||.||.||||..
+493-3072         344 TTACAGAGAAGACACCACTGCTGAAGGTTTCCTCAGAGGAAAATGGGTTG    393
+
+114-2630         331 CGGTGCATACCTGTTTACCATCCAGAGTTCATCACTGCTGAAGAGTCTTG    380
+                     |..|||||..||.||.|..|||||||.||.|.|||.|.|||.||.||.||
+493-3072         394 CCATGCATGGCTCTTCATAATCCAGATTTTACCACAGATGATGATTCATG    443
+
+114-2630         381 GGAAGACAGCTCTGCTGACTGGGAGCGAAGATACCTGCTAAGCAGGGAGG    430
+                     |||..||||||||.|.||.|..||.|..||||..|..||..|.||.||..
+493-3072         444 GGACAACAGCTCTTCAGAATTTGAACAGAGATTTCATCTGGGAAGTGAAA    493
+
+114-2630         431 TGTCTGGTCTGTCTGCATCTGCCTCCTCCGAGAA--GGGAGACCTTCTGG    478
+                     ||.|..||.|||||..||||||.||.||.|||||  ..||.|.||  |||
+493-3072         494 TGACCAGTTTGTCTAGATCTGCTTCTTCTGAGAAATATGAAATCT--TGG    541
+
+114-2630         479 ACAGCCCGCACATCCGACTCCGTCTTTCCAAGCTGAGGCGCTGTGTGCAG    528
+                     |||.||..||..||....||..|.|.||.|||.||||.||||||.|..|.
+493-3072         542 ACAACCTTCATGTCAAGTTCAATTTATCAAAGATGAGACGCTGTCTAAAA    591
+
+114-2630         529 TGGCTGAAAGTCATGGGCCTGTTTGCCTTTGTGGTGCTGTGTTCTATTTT    578
+                     |..||||||.|..|.|.|||.|||..||||||.||..|.||.||||||||
+493-3072         592 TTCCTGAAAATTTTAGTCCTTTTTATCTTTGTAGTTGTCTGCTCTATTTT    641
+
+114-2630         579 GTTCAGCCTATATCCGGATCAAGGAAAGCTCTGGCAGCTGTTGGCCTTAT    628
+                     |||..||.|.|||||.||||||.|...|..|||||||.|||||||..|.|
+493-3072         642 GTTTGGCATTTATCCAGATCAACGTGCGTCCTGGCAGATGTTGGCTGTCT    691
+
+114-2630         629 CACCGCTGGAGAACTACTCCGTGAACCTTAG-CAG----CCACGTGGACT    673
+                     |.||.|||.|.|.||.|||..||||  ||.| |||    .||   .||||
+493-3072         692 CGCCTCTGCAAAGCTTCTCTATGAA--TTTGACAGATTTTCA---TGACT    736
+
+114-2630         674 CCACGCTGCTGCAGGTGGACCTGGCAGGGGCCCTAGTGGCCAGTGGGCCG    723
+                     |..|.|||.||.||.|.|||.|||  |.|||||  ||...||    ||.|
+493-3072         737 CTGCTCTGTTGAAGTTAGACATGG--GAGGCCC--GTTTGCA----GCAG    778
+
+114-2630         724 A-GTCGTCCTGGGAGG--------GAAGAGCACATCGTGGTGGAGCTGAC    764
+                     | ||.|  ||  ||.|        .||||..||||..|.||..|..|.|.
+493-3072         779 ATGTAG--CT--GATGAACAAGCACAAGAATACATTTTAGTACAAGTCAG    824
+
+114-2630         765 CCAGGCTGACG---CTTTGGGCTCCAGGTGGCGGCGGCCACAGCAGGTCA    811
+                     ||||.||||.|   ||   ||.||.|||.||.|.||.|.|||||||||..
+493-3072         825 CCAGACTGAAGAAACT---GGATCAAGGAGGAGACGCCAACAGCAGGTGG    871
+
+114-2630         812 CTCACAACTGGACGGTGTA--TTTAAATCCGAGGAGAAGCGAGC-ACTCA    858
+                     ...||||||||.|  |.||  .||||.|.|.||.||||...||| |.|||
+493-3072         872 TATACAACTGGTC--TCTACCCTTAAGTTCAAGAAGAAATCAGCAAATCA    919
+
+114-2630         859 GTGATGAGCAGGACCTTTGAGGTACTGACCAGAGAGACGGTGTCCATC--    906
+                      |.|..|..||.||||||.||.|||..|.|||||..|      |||||  
+493-3072         920 -TCACAACTAGAACCTTTCAGATACCAAACAGAGGCA------CCATCGT    962
+
+114-2630         907 ----AGCATCCGGGCCTCCCTGCAGCAGACCCAGG--CTGTCCCTCTTTT    950
+                         |.|||.|..||.|.|||||||  ||.||.||  .|||.|||||.|.
+493-3072         963 CTTAAACATTCAAGCTTTCCTGCAG--GAGCCTGGAAGTGTTCCTCTCTC   1010
+
+114-2630         951 GATGGCTCATCAGTACCTCCGCGGAAGTGTAGAAACCCAGGTGACCATCG   1000
+                     .|||...|||||.|||||.|..|.||.|.||||..|.||.||.||.||.|
+493-3072        1011 CATGAAACATCAATACCTTCATGCAAATATAGAGGCACAAGTAACAATTG   1060
+
+114-2630        1001 CGACGGCCATCCTCGCGGGCGTCTACGCGCTGATCATATTTGAGATCGTG   1050
+                     |..|...||||.|.|..||||||||.|.||||||||||||.||.||.||.
+493-3072        1061 CATCCATCATCTTAGTAGGCGTCTATGTGCTGATCATATTAGAAATTGTT   1110
+
+114-2630        1051 CACAGAACTCTGGCGGCCATGCTGGGTTCCCTTGCAGCACTGGCAGCACT   1100
+                     |||||.|||||.||.||.||||||||.||..|.|||||..|.||.||..|
+493-3072        1111 CACAGGACTCTTGCAGCGATGCTGGGCTCTTTGGCAGCTTTAGCTGCGTT   1160
+
+114-2630        1101 GGCTGTGATTGGCGATAGACCCAGCCTGACCCATGTGGTGGAGTGGATTG   1150
+                     .||||..|||||.||.||.||.||..||..|.|.|||||.||||||||||
+493-3072        1161 AGCTGCTATTGGGGAGAGGCCAAGTATGGTCAAAGTGGTAGAGTGGATTG   1210
+
+114-2630        1151 ATTTTGAGACGCTGGCCCTGCTGTTTGGCATGATGATCTTAGTAGCCATA   1200
+                     |||.||||||..||||.||.||||||||.||||||.|.||.||.||||||
+493-3072        1211 ATTATGAGACATTGGCGCTACTGTTTGGAATGATGGTTTTGGTGGCCATA   1260
+
+114-2630        1201 TTTTCAGAAACGGGATTTTTCGATTATTGTGCTGTAAAGGCATACCGGCT   1250
+                     ||||||||.||.|||||.||.|||||.|||||.||||||||.||.||..|
+493-3072        1261 TTTTCAGAGACTGGATTCTTTGATTACTGTGCAGTAAAGGCTTATCGATT   1310
+
+114-2630        1251 CTCCCGGGGACGGGTGTGGGCCATGATCATCATGCTCTGTCTCATCGCGG   1300
+                     |||..|.||...|||||||||||||||.|...|.||.||.||.||.||.|
+493-3072        1311 CTCTAGAGGCAAGGTGTGGGCCATGATTACGCTTCTGTGCCTTATTGCTG   1360
+
+114-2630        1301 CCGTCCTCTCTGCCTTCTTGGACAACGTCACCACCATGCTCCTCTTCACG   1350
+                     |..|.||.|||||.||.||||||||.||.|||||.|||||.|||||.||.
+493-3072        1361 CAATTCTTTCTGCATTTTTGGACAATGTTACCACAATGCTGCTCTTTACT   1410
+
+114-2630        1351 CCTGTGACCATAAGGTTGTGTGAGGTGCTCAACCTTGATCCAAGACAAGT   1400
+                     ||.||.|||||||||.|.|||||.||.||.||.|||||||||||.||.||
+493-3072        1411 CCAGTAACCATAAGGCTCTGTGAAGTACTAAATCTTGATCCAAGGCATGT   1460
+
+114-2630        1401 CCTGATTGCAGAAGTGATCTTCACAAACATTGGAGGAGCTGCCACTGCCA   1450
+                     |||||||||||||||.|||||||||||.|||||.||.||||||||.||..
+493-3072        1461 CCTGATTGCAGAAGTAATCTTCACAAATATTGGGGGGGCTGCCACAGCTG   1510
+
+114-2630        1451 TCGGGGACCCTCCAAATGTCATTATTGTTTCCAACCAAGAGCTGAGGAAG   1500
+                     |.|||||.|||||||||||.||||||||||||||.||.||.|||||||.|
+493-3072        1511 TTGGGGATCCTCCAAATGTGATTATTGTTTCCAAGCAGGAACTGAGGAGG   1560
+
+114-2630        1501 ATGGGCCTGGACTTTGCCGGATTCACTGCACACATGTTCATTGGGATTTG   1550
+                     ..|||..||||.|||||....|||||.|.|||.|||||..|.||.||.||
+493-3072        1561 CAGGGATTGGATTTTGCAACCTTCACAGGACATATGTTTGTCGGAATCTG   1610
+
+114-2630        1551 CCTTGTTCTCCTGGTCTGCTTTCCGCTCCTCAGACTCCTTTACTGGAACA   1600
+                     |||||||.|.|||||||.||||||..|.||..||||.|||||||||||||
+493-3072        1611 CCTTGTTGTTCTGGTCTCCTTTCCCTTTCTTGGACTTCTTTACTGGAACA   1660
+
+114-2630        1601 GAAAGCTTTATAACAAGGAACCCAGTGAGATTGTTGAACTGAAGCACGAG   1650
+                     .|||.||.|||||.|||||.||.|||||.||||||||||||||.||.|||
+493-3072        1661 AAAAACTGTATAATAAGGAGCCGAGTGAAATTGTTGAACTGAAACATGAG   1710
+
+114-2630        1651 ATTCACGTCTGGCGCCTGACTGCTCAGCGCATCAGCCCGGCCAGCCGCGA   1700
+                     ||..|.||.|||.|..||||||||||||||||.|.|||.||||||.|.||
+493-3072        1711 ATCTATGTTTGGAGGTTGACTGCTCAGCGCATTAACCCCGCCAGCAGGGA   1760
+
+114-2630        1701 GGAGACAGCTGTGCGCCGCCTGCTGCTGGGGAAGGTGCTGGCACTGGAGC   1750
+                     .|||||.||||||....||||..||.||..||||||||||.|.|||||| 
+493-3072        1761 AGAGACTGCTGTGAAATGCCTCTTGATGCAGAAGGTGCTGACTCTGGAG-   1809
+
+114-2630        1751 ACCTGCTCGCCCGGAGG--------CTGCACACCTTCCACAGACAGATCT   1792
+                       .||||   ||.||||        |.|.|||  ||||||||.||.||.|
+493-3072        1810 --ATGCT---CCTGAGGAAGAAGCTCAGGACA--TTCCACAGGCAAATTT   1852
+
+114-2630        1793 CACAGGAGGACAAAAATTGGGAGACCAATATCCAAGAACTCCAAAAAAAG   1842
+                     ||||.||.||.|||||.|||||.||.|||||.||.||||||||.||||||
+493-3072        1853 CACAAGAAGATAAAAACTGGGAAACAAATATTCAGGAACTCCAGAAAAAG   1902
+
+114-2630        1843 CATAGGATATCTGACGGGATTCTGCTCGCCAAATGCCTGACAGTGTTGGG   1892
+                     ||.||.|||.|.|||...||.||||||..||||||||||||.|||.||||
+493-3072        1903 CACAGAATAACAGACAAAATCCTGCTCATCAAATGCCTGACTGTGCTGGG   1952
+
+114-2630        1893 ATTTGTTATCTTCATGTTTTTCCTCAATTCGTTTGTCCCTGGCATTCATC   1942
+                     ||.||||||..||||||||||.|||||.||.|||||.||.||.| ||..|
+493-3072        1953 ATGTGTTATTCTCATGTTTTTTCTCAACTCATTTGTTCCAGGTA-TCTAC   2001
+
+114-2630        1943 TT-GATCTTGGATGGATTGCTATTCTGGGTGCCATCTGGTTGCTAATTTT   1991
+                     || ||||||||.||||||||.|||.||||.||.||.|||.||.||.|..|
+493-3072        2002 TTAGATCTTGGCTGGATTGCCATTTTGGGAGCTATTTGGCTGTTAGTGCT   2051
+
+114-2630        1992 AGCTGATATTCATGATTTTGAGATAATTCTACACAGAGTGGAATGGGCAA   2041
+                     |||.||.||.|||||.||||||||.||..||..|||||||||||||||||
+493-3072        2052 AGCAGACATCCATGACTTTGAGATGATATTAAGCAGAGTGGAATGGGCAA   2101
+
+114-2630        2042 CCCTTCTGTTTTTTGCAGCGCTCTTTGTTCTGATGGAGGCATTGGCACAT   2091
+                     |||||||.||.||||||||..|.||||||||.||||||||.|||||.|||
+493-3072        2102 CCCTTCTTTTCTTTGCAGCATTATTTGTTCTCATGGAGGCTTTGGCTCAT   2151
+
+114-2630        2092 CTCCACTTAATAGAATATGTTGGAGAACAAACTGCTTTGCTAATAAAGAT   2141
+                     ||.||.||||||||.||..|.||||||||.||.|||||||||||||||.|
+493-3072        2152 CTGCATTTAATAGACTACATAGGAGAACAGACAGCTTTGCTAATAAAGGT   2201
+
+114-2630        2142 GGTCCCAGAGGAGCAGCGCCTCATAGCCGCCATTGTCCTGGTGGTGTGGG   2191
+                     |||.||.|||||.||||||.|...||..|||||..|..|||||.|.||||
+493-3072        2202 GGTTCCTGAGGACCAGCGCTTGGCAGTGGCCATCATTTTGGTGCTCTGGG   2251
+
+114-2630        2192 TCTCAGCCCTGGCGTCGTCCCTGATTGACAACATCCCGTTCACTGCTACC   2241
+                     |.||.||..||||.|||||..||||||||||.|||||.||.||.|||||.
+493-3072        2252 TATCTGCTTTGGCCTCGTCTGTGATTGACAATATCCCATTTACAGCTACA   2301
+
+114-2630        2242 ATGATTCCCGTGCTCCTGAACCTGAGCCACGACCCTGAGGTTGGCCTGCC   2291
+                     ||||||||.||.||.||.||.|||||..|.||.|||||.|||..|.||||
+493-3072        2302 ATGATTCCTGTTCTTCTCAATCTGAGTAAAGATCCTGATGTTAACTTGCC   2351
+
+114-2630        2292 CGCACCGCCGCTCATG----------TATGCCC--TGGCCTTCGGTGCTT   2329
+                                 .|||          |||.|.|  |||||.|.|||||.|
+493-3072        2352 ------------TATGAAACCATTAATATTCTCATTGGCCATGGGTGCAT   2389
+
+114-2630        2330 GCCTGGGAGGTAACGGGACACTGATTGGCGCGTCGGCAAACGTCGTGTGT   2379
+                     ||||.|||||.||.||.|||.|||||||.||.||.||||||||.||.|||
+493-3072        2390 GCCTTGGAGGCAATGGAACATTGATTGGAGCATCTGCAAACGTTGTTTGT   2439
+
+114-2630        2380 GCAGGGATTGCAGAACAGCATGGATATGGGTTCTCCTTCATGGAATTTTT   2429
+                     |||||.|||||.|||||||||||||||||.||.||.|||||||||||.||
+493-3072        2440 GCAGGAATTGCTGAACAGCATGGATATGGCTTTTCTTTCATGGAATTCTT   2489
+
+114-2630        2430 CAGGCTGGGCTTCCCAATGATGGTTGTGTCCTGCACTGTTGGGATGTGTT   2479
+                     ||||.|.||.|||||.||||||.||||||||||.||..|.||||||||.|
+493-3072        2490 CAGGTTAGGTTTCCCCATGATGATTGTGTCCTGTACCATCGGGATGTGCT   2539
+
+114-2630        2480 ATCTCCTTGTGGCTCATGTGGTGGTGGGATGGAATTAA   2517
+                     ||||.|||||.||||||||.||.||.||.|||||||.|
+493-3072        2540 ATCTTCTTGTTGCTCATGTTGTAGTAGGTTGGAATTCA   2577
+
+
+#---------------------------------------
+#---------------------------------------
