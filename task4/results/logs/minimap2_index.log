@@ -1,0 +1,8 @@
+[M::mm_idx_gen::0.099*0.96] collected minimizers
+[M::mm_idx_gen::0.120*1.31] sorted minimizers
+[M::main::0.145*1.26] loaded/built the index for 1 target sequence(s)
+[M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 1
+[M::mm_idx_stat::0.152*1.24] distinct minimizers: 838542 (98.18% are singletons); average occurrences: 1.034; average spacing: 5.352; total length: 4641652
+[M::main] Version: 2.26-r1175
+[M::main] CMD: minimap2 -x map-ont -d results/ecoli.mmi ncbi_dataset/ncbi_dataset/data/GCF_000005845.2/ecoli.fna
+[M::main] Real time: 0.155 sec; CPU: 0.192 sec; Peak RSS: 0.048 GB

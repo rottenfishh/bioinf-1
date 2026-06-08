@@ -1,0 +1,33 @@
+digraph make_dag {
+  rankdir=LR;
+  label="QC & variant-calling pipeline (GNU Make DAG)\n(сгенерировано из `make -Bnd` через make2dot.py)";
+  labelloc="t"; fontsize=16;
+  node [fontname="Helvetica", fontsize=11];
+  edge [color="#5D6D7E"];
+  "Makefile" [label="Makefile", shape=component, style=filled, fillcolor="#E8DAEF"];
+  "all" [label="all", shape=ellipse, style=filled, fillcolor="#FFE9A8", penwidth=2, color="#1A5276"];
+  "results/SRR38921296.vcf" [label="SRR38921296.vcf", shape=box, style="filled,bold", fillcolor="#ABEBC6", penwidth=2, color="#1A5276"];
+  "results/SRR38921296.sorted.bam" [label="SRR38921296.sorted.bam", shape=box, style=filled, fillcolor="#F2F3F4", penwidth=2, color="#1A5276"];
+  "results/SRR38921296.bam" [label="SRR38921296.bam", shape=box, style=filled, fillcolor="#F2F3F4", penwidth=2, color="#1A5276"];
+  "results/SRR38921296.sam" [label="SRR38921296.sam", shape=box, style=filled, fillcolor="#F2F3F4", penwidth=2, color="#1A5276"];
+  "results/ecoli.mmi" [label="ecoli.mmi", shape=box, style=filled, fillcolor="#F2F3F4", penwidth=2, color="#1A5276"];
+  "../../ncbi_dataset/ncbi_dataset/data/GCF_000005845.2/ecoli.fna" [label="ecoli.fna", shape=note, style=filled, fillcolor="#D6EAF8"];
+  "dirs" [label="dirs", shape=ellipse, style=filled, fillcolor="#FFE9A8", penwidth=2, color="#1A5276"];
+  "../../SRR38921296.fastq/SRR38921296.fastq" [label="SRR38921296.fastq", shape=note, style=filled, fillcolor="#D6EAF8"];
+  "results/SRR38921296.qc_status.txt" [label="SRR38921296.qc_status.txt", shape=box, style=filled, fillcolor="#F2F3F4", penwidth=2, color="#1A5276"];
+  "results/SRR38921296.flagstat.txt" [label="SRR38921296.flagstat.txt", shape=box, style=filled, fillcolor="#F2F3F4", penwidth=2, color="#1A5276"];
+  "../../scripts/parse_flagstat.sh" [label="parse_flagstat.sh", shape=component, style=filled, fillcolor="#E8DAEF"];
+  "qc" [label="qc", shape=ellipse, style=filled, fillcolor="#FFE9A8", penwidth=2, color="#1A5276"];
+  "results/SRR38921296.vcf" -> "all";
+  "results/SRR38921296.sorted.bam" -> "results/SRR38921296.vcf";
+  "results/SRR38921296.bam" -> "results/SRR38921296.sorted.bam";
+  "results/SRR38921296.sam" -> "results/SRR38921296.bam";
+  "results/ecoli.mmi" -> "results/SRR38921296.sam";
+  "../../ncbi_dataset/ncbi_dataset/data/GCF_000005845.2/ecoli.fna" -> "results/ecoli.mmi";
+  "dirs" -> "results/ecoli.mmi";
+  "../../SRR38921296.fastq/SRR38921296.fastq" -> "results/SRR38921296.sam";
+  "results/SRR38921296.qc_status.txt" -> "results/SRR38921296.vcf";
+  "results/SRR38921296.flagstat.txt" -> "results/SRR38921296.qc_status.txt";
+  "../../scripts/parse_flagstat.sh" -> "results/SRR38921296.qc_status.txt";
+  "qc" -> "all";
+}
